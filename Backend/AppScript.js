@@ -1,7 +1,7 @@
-const SECRET_KEY = 'chetan12345';
-const ADMIN_KEY = 'chetan12345';
-const SPREADSHEET_ID = '1azYqswLE8q_qNyGEoWGk4pn35KS_WrDfg1xFIS7Y8Oo';
-const SHEET_NAME = 'Form_Responses';
+const SECRET_KEY = 'your-secrete-key';
+const ADMIN_KEY = 'your-admin-key';
+const SPREADSHEET_ID = 'your-sheetid-here';
+const SHEET_NAME = 'sheet-name';
 
 /**
  * Main entry point for POST requests
@@ -438,4 +438,5 @@ function getEngineStatus() {
     Logger.log('Error fetching engine status: ' + error);
     return 'off';
   }
+
 }
